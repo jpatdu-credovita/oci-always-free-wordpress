@@ -1,0 +1,16 @@
+"wordpress.0006": {
+    "solutionExposure": "prod",
+    "name": "${Messages.solutionsHub.solutions.wordpress.solutionName()}",
+    "description": "${Messages.solutionsHub.solutions.wordpress.stackDescription()}",
+    "longDescription": {
+        "description": "${Messages.solutionsHub.solutions.wordpress.longDescription()}"
+    },
+    "icon": {
+        "iconLine1": "WordPress",
+        "iconLine2": "with",
+        "iconLine3": "MySQL"
+    },
+    "terraformVersion": "0.14.x",
+    "isFreeTier": false,
+	"categoryId": "0"
+}

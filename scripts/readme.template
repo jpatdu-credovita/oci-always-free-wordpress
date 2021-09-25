@@ -1,0 +1,12 @@
+# Deploying WordPress on OCI
+
+This repository provides a minimal WordPress deployment on Oracle Cloud Infrastructure. This deployment utilizes a single compute instance in order to deploy both WordPress as well as a MySQL database.
+Both WordPress as well as MySQL are deployed using Docker containers.
+
+# Credentials
+
+MySQL Root password :  ${mysql_root_password}
+WordPress Database schema :  ${wp_schema}
+WordPress database username :  ${wp_db_user}
+WordPress database password: ${wp_db_password}
+
