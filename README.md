@@ -2,18 +2,12 @@
 
 This repo is a modified config utilizing the Always Free VM.Standard.E2.1.Micro instance shape. Originally pulled from the Oracle Cloud Wordpress quickstart.
 
-# Original README:
-
 This repository provides a minimal WordPress deployment on Oracle Cloud Infrastructure. This deployment utilizes a single compute instance in order to deploy both WordPress as well as a MySQL database.
 Both WordPress as well as MySQL are deployed using Docker containers. There are two ways to deploy this solution. The first method utilizes Oracle Resource Manager, a managed Terraform service in Oracle Cloud Infrastructure. Secondly, this solution can be deployed using terraform.
 
 ## Deploy Using Oracle Resource Manager
 
-To deploy this solution using Oracle Resource Manager, click on the deployment button below to start the deployment in your oracle cloud infrastructure tenancy.
-
-[![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?region=home&zipUrl=https://github.com/jpatdu-credovita/oci-always-free-wordpress/oci-wordpress-micro-stack-latest.zip)
-
-Alternatively, you can download the stack for this solution from the **Releases** a section of this repository. Navigate to Oracle resource manager in the Oracle Cloud Infrastructure console. Here import the zip file as a new resource manager stack.You can now perform terraform actions like plan or apply.
+You can download the stack for this solution from the zip file in this repository. Navigate to Oracle resource manager in the Oracle Cloud Infrastructure console. Here import the zip file as a new resource manager stack.You can now perform terraform actions like plan or apply.
 
 The stack exposes several variables that can be configured. By default the stack only prompts the user for the administrative password for WordPress. Users can choose to use the advanced options to provide further configuration of the stack.
 
